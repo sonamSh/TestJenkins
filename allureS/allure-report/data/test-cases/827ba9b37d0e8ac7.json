@@ -1,0 +1,102 @@
+{
+  "uid" : "827ba9b37d0e8ac7",
+  "name" : "direct search article five",
+  "fullName" : "search Wikipedia: direct search article five",
+  "historyId" : "6cd173d88fdb35d9c8074dee2110e56",
+  "time" : {
+    "start" : 1557478155145,
+    "stop" : 1557478155147,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Enter search term 'Cucumber' five",
+      "time" : {
+        "start" : 1557478155145,
+        "stop" : 1557478155145,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "When  Do search five",
+      "time" : {
+        "start" : 1557478155146,
+        "stop" : 1557478155146,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Then  Single result is shown for 'Cucumber' five",
+      "time" : {
+        "start" : 1557478155146,
+        "stop" : 1557478155147,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "search Wikipedia"
+  }, {
+    "name" : "story",
+    "value" : "direct search article five"
+  }, {
+    "name" : "tag",
+    "value" : "billingScenario"
+  }, {
+    "name" : "host",
+    "value" : "BHAVNAWKS083"
+  }, {
+    "name" : "thread",
+    "value" : "11232@BHAVNAWKS083.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "search Wikipedia"
+  }, {
+    "name" : "suite",
+    "value" : "search Wikipedia"
+  }, {
+    "name" : "testClass",
+    "value" : "direct search article five"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

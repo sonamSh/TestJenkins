@@ -1,0 +1,102 @@
+{
+  "uid" : "f48693dc2bc1255a",
+  "name" : "direct search article one",
+  "fullName" : "search Wikipedia: direct search article one",
+  "historyId" : "f8be4d41c86b3da5e238c4e04e99779a",
+  "time" : {
+    "start" : 1557478154982,
+    "stop" : 1557478155053,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Enter search term 'Cucumber' one",
+      "time" : {
+        "start" : 1557478154984,
+        "stop" : 1557478155049,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "When  Do search one",
+      "time" : {
+        "start" : 1557478155049,
+        "stop" : 1557478155050,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Then  Single result is shown for 'Cucumber' one",
+      "time" : {
+        "start" : 1557478155050,
+        "stop" : 1557478155051,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "search Wikipedia"
+  }, {
+    "name" : "story",
+    "value" : "direct search article one"
+  }, {
+    "name" : "tag",
+    "value" : "billingScenario"
+  }, {
+    "name" : "host",
+    "value" : "BHAVNAWKS083"
+  }, {
+    "name" : "thread",
+    "value" : "11232@BHAVNAWKS083.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "search Wikipedia"
+  }, {
+    "name" : "suite",
+    "value" : "search Wikipedia"
+  }, {
+    "name" : "testClass",
+    "value" : "direct search article one"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

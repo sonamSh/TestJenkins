@@ -1,0 +1,116 @@
+{
+  "uid" : "d531bcdf2422042c",
+  "name" : "direct search article two",
+  "fullName" : "search Wikipedia: direct search article two",
+  "historyId" : "27303fb4cfdcb988b5fe1f839b23e9a6",
+  "time" : {
+    "start" : 1557477616406,
+    "stop" : 1557477616409,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Enter search term 'Cucumber' two",
+      "time" : {
+        "start" : 1557477616406,
+        "stop" : 1557477616407,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  Do search two",
+      "time" : {
+        "start" : 1557477616407,
+        "stop" : 1557477616408,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  Single result is shown for 'Cucumber' two",
+      "time" : {
+        "start" : 1557477616408,
+        "stop" : 1557477616409,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "search Wikipedia"
+  }, {
+    "name" : "story",
+    "value" : "direct search article two"
+  }, {
+    "name" : "tag",
+    "value" : "billingScenario"
+  }, {
+    "name" : "host",
+    "value" : "BHAVNAWKS083"
+  }, {
+    "name" : "thread",
+    "value" : "15188@BHAVNAWKS083.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "search Wikipedia"
+  }, {
+    "name" : "suite",
+    "value" : "search Wikipedia"
+  }, {
+    "name" : "testClass",
+    "value" : "direct search article two"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "billingScenario" ]
+  },
+  "source" : "d531bcdf2422042c.json",
+  "parameterValues" : [ ]
+}

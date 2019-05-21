@@ -1,0 +1,200 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 5,
+    "unknown" : 0,
+    "total" : 5
+  },
+  "time" : {
+    "minDuration" : 2,
+    "maxDuration" : 71,
+    "sumDuration" : 82,
+    "start" : 1557478154982,
+    "stop" : 1557478155147,
+    "duration" : 165
+  },
+  "children" : [ {
+    "uid" : "b5ae867c3ebf8c29",
+    "name" : "search Wikipedia",
+    "time" : {
+      "minDuration" : 2,
+      "maxDuration" : 71,
+      "sumDuration" : 82,
+      "start" : 1557478154982,
+      "stop" : 1557478155147,
+      "duration" : 165
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "bee1996f3ce1d421",
+      "name" : "direct search article four",
+      "time" : {
+        "minDuration" : 3,
+        "maxDuration" : 3,
+        "sumDuration" : 3,
+        "start" : 1557478155137,
+        "stop" : 1557478155140,
+        "duration" : 3
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "668a8c305e7e50df",
+        "name" : "direct search article four",
+        "time" : {
+          "start" : 1557478155137,
+          "stop" : 1557478155140,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "b36a534bc3c75076",
+      "name" : "direct search article three",
+      "time" : {
+        "minDuration" : 2,
+        "maxDuration" : 2,
+        "sumDuration" : 2,
+        "start" : 1557478155132,
+        "stop" : 1557478155134,
+        "duration" : 2
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "c79a509c0adf4c6f",
+        "name" : "direct search article three",
+        "time" : {
+          "start" : 1557478155132,
+          "stop" : 1557478155134,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "31cf5ede59db6976",
+      "name" : "direct search article two",
+      "time" : {
+        "minDuration" : 4,
+        "maxDuration" : 4,
+        "sumDuration" : 4,
+        "start" : 1557478155114,
+        "stop" : 1557478155118,
+        "duration" : 4
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "da11e404be66b6e4",
+        "name" : "direct search article two",
+        "time" : {
+          "start" : 1557478155114,
+          "stop" : 1557478155118,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "1684dca5722dbfc5",
+      "name" : "direct search article five",
+      "time" : {
+        "minDuration" : 2,
+        "maxDuration" : 2,
+        "sumDuration" : 2,
+        "start" : 1557478155145,
+        "stop" : 1557478155147,
+        "duration" : 2
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "827ba9b37d0e8ac7",
+        "name" : "direct search article five",
+        "time" : {
+          "start" : 1557478155145,
+          "stop" : 1557478155147,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "6c6816fd291e99be",
+      "name" : "direct search article one",
+      "time" : {
+        "minDuration" : 71,
+        "maxDuration" : 71,
+        "sumDuration" : 71,
+        "start" : 1557478154982,
+        "stop" : 1557478155053,
+        "duration" : 71
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "f48693dc2bc1255a",
+        "name" : "direct search article one",
+        "time" : {
+          "start" : 1557478154982,
+          "stop" : 1557478155053,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

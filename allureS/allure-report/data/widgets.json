@@ -1,0 +1,53 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "time" : {
+      "minDuration" : 2,
+      "maxDuration" : 71,
+      "sumDuration" : 82,
+      "start" : 1557478154982,
+      "stop" : 1557478155147,
+      "duration" : 165
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 5,
+    "unknown" : 0,
+    "total" : 5
+  } ],
+  "behaviors" : {
+    "total" : 1,
+    "items" : [ {
+      "name" : "search Wikipedia",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      }
+    } ]
+  },
+  "executors" : [ {
+    "name" : "Jenkins",
+    "type" : "jenkins",
+    "url" : "http://localhost:8080/",
+    "buildName" : "Testing1 #3",
+    "buildUrl" : "http://localhost:8080/job/Testing1/3/",
+    "reportUrl" : "http://localhost:8080/job/Testing1/3/allure"
+  } ],
+  "launches" : [ ]
+}
