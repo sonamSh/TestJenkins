@@ -1,0 +1,29 @@
+group 'allureS'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  //  testCompile group: 'junit', name: 'junit', version: '4.12'====to run runner fro junit
+
+    compile group: 'info.cukes', name: 'cucumber-jvm', version: '1.2.5', ext: 'pom'
+//
+   ////// compile group: 'info.cukes', name: 'cucumber-core', version: '1.2.5'===remove this dependency cucumber.runtime.Runtime.getEventBus()Lcucumber/runner/EventBus; error
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+    compile group: 'io.cucumber', name: 'cucumber-testng', version: '2.4.0'
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '2.4.0'
+
+    //allure
+    compile group: 'io.qameta.allure', name: 'allure-cucumber2-jvm', version: '2.9.0'
+
+    //to import ConfigurationBuilder,Extension,ReportGenerator,Allure1Plugin(it is used to import all plugins)
+    compile 'io.qameta.allure:allure-commandline:2.8.1'
+
+    //above two dependency of allure are important for allure reporting
+}

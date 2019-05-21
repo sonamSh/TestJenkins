@@ -1,0 +1,51 @@
+[ {
+  "uid" : "26fac0984a231b7b",
+  "name" : "direct search article three",
+  "time" : {
+    "start" : 1557478155132,
+    "stop" : 1557478155134,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d441dc0820d957c",
+  "name" : "direct search article five",
+  "time" : {
+    "start" : 1557478155145,
+    "stop" : 1557478155147,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e457333ca020d518",
+  "name" : "direct search article one",
+  "time" : {
+    "start" : 1557478154982,
+    "stop" : 1557478155053,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd758c3eeac078aa",
+  "name" : "direct search article four",
+  "time" : {
+    "start" : 1557478155137,
+    "stop" : 1557478155140,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22c8fcaef7350c84",
+  "name" : "direct search article two",
+  "time" : {
+    "start" : 1557478155114,
+    "stop" : 1557478155118,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
