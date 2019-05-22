@@ -27,3 +27,14 @@ dependencies {
 
     //above two dependency of allure are important for allure reporting
 }
+
+task suiteRunner(type: Test) {
+    useTestNG() {
+
+        dependsOn cleanTest
+        useDefaultListeners = true
+
+        suites "src/test/resources/testng_xmls/billing_test.xml"
+    }
+
+}
